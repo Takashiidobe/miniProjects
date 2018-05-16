@@ -20,19 +20,20 @@ function rps() {
       alert('Oh dear, it seems we have an error.');
     }
 
+    //chooses winner
     if (rps === action) {
       return rps();
-    } else if (action === paper && rps === 'rock') {
+    } else if (action === 'paper' && rps === 'rock') {
       alert('You win!');
-    } else if (action === paper && rps === 'scissors') {
+    } else if (action === 'paper' && rps === 'scissors') {
       alert('You lose!');
-    } else if (action === rock && rps === 'paper') {
+    } else if (action === 'rock' && rps === 'paper') {
       alert('You lose!');
-    } else if (action === rock && rps === 'scissors') {
+    } else if (action === 'rock' && rps === 'scissors') {
       alert('You win!');
-    } else if (action === scissors && rps === 'paper') {
+    } else if (action === 'scissors' && rps === 'paper') {
       alert('You win!');
-    } else if (action === scissors && rps === 'rock') {
+    } else if (action === 'scissors' && rps === 'rock') {
       alert('You lose!');
     } else {
       alert('Oh dear, it seems we have an error.');
