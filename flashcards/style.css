@@ -1,11 +1,35 @@
 .container {
   text-align: center;
+  display: inline;
+
 }
 
 .back {
   text-align: left;
+  display: inline;
+  float: left;
 }
 
 .forward {
   text-align: right;
+  display: inline;
+  float: right;
+}
+
+#answer1, #answer2, #last, #next {
+  font-size: 24px;
+  border-radius: 12px;
+  border: 1px solid red;
+  background-color: firebrick;
+}
+
+
+
+#answer1:hover, #answer2:hover {
+  background-color: #3e8e41;
+}
+
+#answer1:active, #answer2:active, #last:active, #next:active {
+  position: relative;
+  top: 1px;
 }
